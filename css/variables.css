@@ -1,0 +1,9 @@
+:root {
+    --font-heading: "poppins", arial, sans-serif;
+    --font-body: "inter", verdana, tahoma, sans-serif;
+    --font-logo: "share tech", "Courier New", Courier, monospace;
+
+    --accent-color: #007ACC;
+    --footer-color: #424242;
+    --header-color: #2f2f2f;
+}
