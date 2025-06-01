@@ -2,7 +2,7 @@ const projectData = {
     'hotviewlabs': {
         title: 'HOTVIEWLABS',
         projectType: 'PROJECT EXAM 1',
-        image: 'assets/hotviewlabs.png',
+        image: 'assets/hotviewlabs.webp',
         description: 'A modern, responsive tech blog platform where tech leaders across the world can read about up-to-date insights about technology trends and innovations. This is an exam project thats designed to put everything Ive learned during FED1 into practise.',
         technologies: ['HTML', 'CSS', 'JavaScript'],
         liveDemo: 'https://hotviewlabs-tonjeschjefstad.netlify.app/',
@@ -13,7 +13,7 @@ const projectData = {
     'community-science-museum': {
         title: 'COMMUNITY SCIENCE MUSEUM',
         projectType: 'SEMESTER PROJECT 1',
-        image: 'assets/csm.png',
+        image: 'assets/csm.webp',
         description: 'An interactive and educational website designed to spark curiosity and wonder in young minds. Build specificallt for primary and middle school children and families, this platform encourages museum visits through captivationg design and accessible content.',
         technologies: ['HTML', 'CSS'],
         liveDemo: 'https://tonjeschjefstad.github.io/SemesterProject1-Community-Science-Museum/',
@@ -23,7 +23,7 @@ const projectData = {
     'rainydays': {
         title: 'RAINY DAYS',
         projectType: 'CROSS COURSE PROJECT',
-        image: 'assets/rainydays.png',
+        image: 'assets/rainydays.webp',
         description: 'An e-commerce platform specializing in premium rain jackets for outdoor enthusiasts. The webpage is built as a cross-course project incorporating design principles, responsive layout and interactive JavaScript functionality.',
         technologies: ['HTML', 'CSS', 'JavaScript'],
         liveDemo: 'https://tonjeschjefstad.github.io/cross-course-rainydays/',

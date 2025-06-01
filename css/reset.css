@@ -52,7 +52,7 @@ nav, #menu-checkbox {
 nav {
   position: absolute;
   background-color: var(--header-color);
-  top: 55px;
+  top: 45px;
   right: 0px;
   padding: 10px 0px;
   width: 100%;
@@ -65,6 +65,15 @@ nav a {
   display: block;
   padding: 15px 30px;
   text-decoration: none;
+}
+
+footer {
+    background-color: var(--footer-color);
+    padding: 10px 20px;
+}
+
+footer p {
+  font-size: 0.7rem;
 }
 
 @media (min-width: 700px) {
@@ -91,10 +100,13 @@ nav a {
     border-bottom: 1px solid var(--accent-color);
     font-weight: bold;
   }
+
+  footer p {
+  font-size: 0.9rem;
+  padding: 10px 40px;
   
 }
 
-footer {
-    background-color: var(--footer-color);
-    padding: 10px 40px;
+
+  
 }
