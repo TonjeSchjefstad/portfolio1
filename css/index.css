@@ -45,7 +45,7 @@
     padding-top: 25vh;
 }
 
-.hero-title {
+.hero-section h2 {
     font-family: var(--font-heading);
     font-size: 2rem;
     font-weight: 600;
