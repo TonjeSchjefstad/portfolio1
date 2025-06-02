@@ -68,7 +68,7 @@ hr.divider {
 
 .about-section {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
     padding: 50px 40px;
     background-color: #5C5C5C;
@@ -84,6 +84,7 @@ hr.divider {
 .about-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 .about-article {
@@ -374,7 +375,7 @@ hr.divider {
     .hero-section {
         padding-left: 20px;
         padding-right: 20px;
-        height: 60vh;
+        min-height: 50vh;
     }
 
     hr.divider {

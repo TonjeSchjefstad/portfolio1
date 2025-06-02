@@ -29,7 +29,7 @@ header {
   justify-content: space-between;
   align-items: center;
   text-align: right;
-  padding: 0px 30px 0px 0px;
+  padding: 5px 30px 5px 0px;
   position: fixed;
   top: 0;
   left: 0;
@@ -47,6 +47,10 @@ nav, #menu-checkbox {
   
 #menu-checkbox:checked ~ nav {
   display: block;
+}
+
+.hamburger-icon {
+  font-size: 1.5rem;
 }
 
 nav {
@@ -77,6 +81,9 @@ footer p {
 }
 
 @media (min-width: 700px) {
+  header {
+  padding: 0px 30px 0px 0px;
+  }
   .hamburger-icon {
     display: none;
   }
