@@ -407,8 +407,9 @@ hr.divider {
     border-top: 2px solid #007ACC;
     }
 
-    .hero-title {
+    .hero-section h2 {
         font-size: 1.1rem;
+        margin-top: 10px;
     }
 
     .hero-paragraph {
