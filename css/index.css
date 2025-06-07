@@ -260,6 +260,8 @@ hr.divider {
 }
 
 .modal-content {
+   display: flex;
+   flex-direction: column;
    background-color: white;
    margin: 0;
    padding: 0;
@@ -269,22 +271,21 @@ hr.divider {
    position: absolute;
    top: 50%;
    left: 50%;
-   max-height: 100vh;
+   max-height: 90vh;
    overflow: hidden;
    transform: translate(-50%, -50%);
-  
 }
 
 .modal-header {
     position: relative;
-    height: 600px;
+    height: 500px;
     overflow: hidden;
     border-radius: 15px 15px 0 0;
 }
 
 .modal-header img {
     width: 100%;
-    height: 600px;
+    height: 100%;
     object-fit: cover;
     object-position: top;
 }
@@ -309,8 +310,8 @@ hr.divider {
 
 .close {
     position: absolute;
-    top: 20px;
-    right: 25px;
+    top: 15px;
+    right: 15px;
     font-size: 1.5rem;
     color: black;
     cursor: pointer;
@@ -322,6 +323,7 @@ hr.divider {
     align-items: center;
     justify-content: center;
     transition: background-color 0.3s ease;
+    z-index: 10;
 }
 
 .close:hover {
@@ -330,7 +332,9 @@ hr.divider {
 
 .modal-body {
     padding: 20px;
-    max-height: calc(90vh - 300px);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     overflow-y: auto;
 }
 
@@ -338,10 +342,12 @@ hr.divider {
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 20px;
+    flex: 1;
 }
 
 .modal-tech-section {
     margin-bottom: 20px;
+    flex-shrink: 0;
 }
 
 
@@ -362,7 +368,8 @@ hr.divider {
 .modal-buttons {
     display: flex;
     gap: 10px;
-    margin-top: 20px;
+    margin-top: auto;
+    flex-shrink: 0;
 }
 
 @keyframes fadeIn {
