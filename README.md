@@ -2,7 +2,7 @@
 
 ![image](https://i.imghippo.com/files/OFWa6524UMY.png)
 
-##Links
+## Links
 - Live Demo: https://tonjeschjefstadportfolio.netlify.app/
 - Repository: https://github.com/TonjeSchjefstad/portfolio1
 
